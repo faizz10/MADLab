@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.menu.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_privacy"
+        android:orderInCategory="100"
+        android:title="privacy"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_Help"
+        android:orderInCategory="100"
+        android:title="Help"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_About"
+        android:orderInCategory="100"
+        android:title="About"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_History"
+        android:orderInCategory="100"
+        android:title="History"
+        app:showAsAction="never" />
+
+</menu>
